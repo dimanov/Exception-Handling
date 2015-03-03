@@ -8,13 +8,13 @@ Homework: Exception Handling
 *	Use `try-catch-finally` block.
 
 ### Problem 2. Enter numbers
-*	Write a method `ReadNumber(int start, int end)` that enters an integer number in a given range [`start�end`].
+*	Write a method `ReadNumber(int start, int end)` that enters an integer number in a given range [`start ...end`].
 	*	If an invalid number or non-number text is entered, the method should throw an exception.
-*	Using this method write a program that enters `10` numbers:	`a1, a2, � a10`, such that `1 < a1 < � < a10 < 100`
+*	Using this method write a program that enters `10` numbers:	`a1, a2, ... a10`, such that `1 < a1 < ... < a10 < 100`
 
 ### Problem 3. Read file contents
 *	Write a program that enters file name along with its full file path (e.g. `C:\WINDOWS\win.ini`), reads its contents and prints it on the console.
-*	Find in MSDN how to use `System.IO.File.ReadAllText(�)`.
+*	Find in MSDN how to use `System.IO.File.ReadAllText(...)`.
 *	Be sure to catch all possible exceptions and print user-friendly error messages.
 
 ### Problem 4. Download file
